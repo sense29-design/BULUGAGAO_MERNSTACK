@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Dela Cruz",
+    "course": "BS Information Technology",
+    "year": "3rd Year",
+    "email": "juan.delacruz@email.com"
+  },
+  {
+    "id": 2,
+    "name": "Maria Santos",
+    "course": "BS Computer Science",
+    "year": "2nd Year",
+    "email": "maria.santos@email.com"
+  },
+  {
+    "id": 3,
+    "name": "Pedro Reyes",
+    "course": "BS Information Systems",
+    "year": "4th Year",
+    "email": "pedro.reyes@email.com"
+  }
+]

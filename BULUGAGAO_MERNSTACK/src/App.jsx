@@ -1,11 +1,21 @@
-import StudentCard from "./components/studentCard.jsx";
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Students from './pages/Students'
+import StudentDetails from './pages/StudentDetails'
+import './App.css'
 
 function App() {
   return (
-    <div>
-      <StudentCard />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/students" element={<Students />} />
+        <Route path="/students/:id" element={<StudentDetails />} />
+      </Routes>
+    </>
   )
 }
 
-export default App;
+export default App
